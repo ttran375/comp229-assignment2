@@ -1,8 +1,0 @@
-// http://localhost:8080/api/products
-{
-    "name": "Elegant Evening Dress - Updated",
-    "description": "An updated description for the stunning evening dress.",
-    "price": 139.99,
-    "quantity": 45,
-    "category": "Evening Wear"
-}

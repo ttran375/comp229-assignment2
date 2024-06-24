@@ -1,5 +1,3 @@
-Here's a step-by-step guide to creating the Online Market Application using Node.js, Express REST APIs, and MongoDB:
-
 ## 1. Setting Up MongoDB Database
 
 1. **Create the Database and Collection**

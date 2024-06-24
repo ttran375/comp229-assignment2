@@ -1,0 +1,36 @@
+// http://localhost:8080/api/products
+{
+    "name": "Casual Summer Dress",
+    "description": "A light and breezy dress perfect for summer outings.",
+    "price": 49.99,
+    "quantity": 30,
+    "category": "Casual Wear",
+    "published": true
+}
+
+{
+    "name": "Elegant Evening Gown",
+    "description": "A stunning gown for formal occasions.",
+    "price": 199.99,
+    "quantity": 10,
+    "category": "Formal Wear",
+    "published": false
+}
+
+{
+    "name": "Sporty Sundress",
+    "description": "A casual dress ideal for outdoor activities.",
+    "price": 39.99,
+    "quantity": 20,
+    "category": "Sportswear",
+    "published": true
+}
+
+{
+    "name": "Classic Little Black Dress",
+    "description": "An essential piece for every wardrobe, versatile and timeless.",
+    "price": 89.99,
+    "quantity": 15,
+    "category": "Casual Wear",
+    "published": false
+}
