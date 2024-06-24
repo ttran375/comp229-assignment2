@@ -1,5 +1,7 @@
 # Online Market Application -- Node.js, Express REST APIs & MongoDB
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ttran375/comp229-assignment2)
+
 Dress Store -- Node.js, Express REST APIs & MongoDB
 
 **Overview**: Create the Node.js Express exports REST APIs that
