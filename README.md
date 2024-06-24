@@ -89,6 +89,18 @@ Install the necessary dependencies.
 yarn
 ```
 
+### Update .env File
+
+Update the `.env` file located in the `dressstore`.
+
+1. Navigate to the `client` directory.
+2. Create a `.env` file. The example provided in `dressstore/.env.example` can be used as a reference.
+3. Update the `MONGODB_URI` with the necessary credentials.
+
+   ```.env
+   MONGODB_URI=mongodb+srv://your_user:your_password@your_cluster.mongodb.net/YourDatabase?retryWrites=true&w=majority&appName=YourApp/yourcollection
+   ```
+
 ### Start the Server
 
 After installing the packages, start the server:
@@ -96,35 +108,6 @@ After installing the packages, start the server:
 ```sh
 yarn start
 ```
-
-To update the [`README.md`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fworkspaces%2Fcomp229-assignment2%2FREADME.md%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/workspaces/comp229-assignment2/README.md") with examples of all endpoints for the Dress Store project, you can follow the structure provided in the existing documentation and add detailed examples for each endpoint. Here's how you can structure the update:
-
-```md
-# Online Market Application -- Node.js, Express REST APIs & MongoDB
-
-Dress Store -- Node.js, Express REST APIs & MongoDB
-
-**Overview**: Create the Node.js Express exports REST APIs that
-interacts with MongoDB Database using Mongoose ODM for an Online
-Market application (Note: The Front-end of the application is not
-included in this Assignment).
-
-## Instructions
-
-...
-
-Below is an overview of the REST APIs that will be exported:
-
-| Methods | URLs                         | Actions                                    |
-|---------|------------------------------|--------------------------------------------|
-| GET     | `/api/products`              | Get all Products                           |
-| GET     | `/api/products/:id`          | Get Product by id                          |
-| POST    | `/api/products`              | Add new Product                            |
-| PUT     | `/api/products/:id`          | Update Product by id                       |
-| DELETE  | `/api/products/:id`          | Remove Product by id                       |
-| DELETE  | `/api/products`              | Remove all Products                        |
-| GET     | `/api/products/published`    | Find all published Products                |
-| GET     | `/api/products?name=[kw]`    | Find all Products which name contains 'kw' |
 
 ### All Endpoint Examples
 
@@ -289,7 +272,3 @@ Below is an overview of the REST APIs that will be exported:
     }
   ]
   ```
-
-```
-
-This update provides a comprehensive guide to all the endpoints available in the Dress Store project, including examples of requests and responses for each endpoint.
